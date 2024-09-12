@@ -7,11 +7,16 @@ A Hexo plugin with typescript
 
 ## Usage
 
-TODO
+> `_config.yml`
 
-## Options
-
-TODO
+```yaml
+# 增加的属性
+index_generator:
+  # 根据更新日期排序
+  sortBy: updated
+  # 如果存在该值，将根据该值决定从哪天开始排序
+  startSortDate: 2024-05
+```
 
 ## Development
 
