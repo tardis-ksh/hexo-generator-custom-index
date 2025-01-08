@@ -24,9 +24,9 @@ const generator = async (locals: Hexo['Site']): Hexo['Return'] => {
     } else if (startSortDate) {
       const sortResult = b.date - a.date;
       // 在需要排序日期之前的文章，按照创建日期降序排
-      if (a.date.isBefore(startSortDate)) {
-        return sortResult;
-      }
+      // if (a.date.isBefore(startSortDate)) {
+      //   return sortResult;
+      // }
 
       // 在需要排序日期之后的文章，按照指定字段排序
       if (a.date.isAfter(startSortDate) && b.date.isAfter(startSortDate)) {
