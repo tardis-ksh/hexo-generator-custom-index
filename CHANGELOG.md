@@ -1,4 +1,13 @@
-# 0.1.0 (2024-09-12)
+## [0.1.1](https://github.com/tardis-ksh/hexo-generator-custom-index/compare/v0.1.0...v0.1.1) (2025-01-08)
+
+
+### Bug Fixes
+
+* 增加条件，只对符合条件的 post 进行对比 ([6c727e4](https://github.com/tardis-ksh/hexo-generator-custom-index/commit/6c727e46cdcf761cdd7985fd44c6de0a1f17390c))
+
+
+
+# [0.1.0](https://github.com/tardis-ksh/hexo-generator-custom-index/compare/a22692773d02e8741ac89e8b5c3b35923fdd3a5d...v0.1.0) (2024-09-12)
 
 
 ### Features
