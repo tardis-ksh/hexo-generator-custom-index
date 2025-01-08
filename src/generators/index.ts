@@ -28,7 +28,12 @@ const generator = async (locals: Hexo['Site']): Hexo['Return'] => {
         return sortResult;
       }
 
-      return b[sortStr] - a[sortStr];
+      // 在需要排序日期之后的文章，按照指定字段排序
+      if (a.date.isAfter(startSortDate) && b.date.isAfter(startSortDate)) {
+        return b[sortStr] - a[sortStr];
+      }
+
+      return sortResult;
     } else {
       return b.date - a.date;
     } // 都没定义按照文章日期降序排
